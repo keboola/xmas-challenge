@@ -1,10 +1,18 @@
 # Keboola Xmas Engineering Challenge
 
-> "A lot of things exist today, but they're scattered, unfinished, naturally aging over time. Package it with a bow."
+## The Problem
+
+When I ask Claude Code for anything Keboola-related, I have to scout documentation and watch over Claude to make sure it knows what it's doing. That's backwards - I need Claude Code to be smarter than me.
+
+When developing with E2B, I downloaded all their documentation and created a skill using [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) - then Claude Code suddenly became an E2B expert. I want the same effect for Keboola.
+
+A lot of work already exists in [keboola/ai-kit](https://github.com/keboola/ai-kit) - but it's scattered, unfinished, naturally aging over time.
+
+**Your mission: Package it with a bow and deliver to end-users.**
 
 ---
 
-## Goal
+## The Goal
 
 Build a **self-healing knowledge system** for Claude Code + Keboola:
 
@@ -71,7 +79,7 @@ GitHub Issue (auto-reported)
 
 ---
 
-## Structure
+## Proposed Structure
 
 ```
 keboola/claude-knowledge/
@@ -96,13 +104,10 @@ keboola/claude-knowledge/
 
 - [ ] Claude writes working Python code for any Keboola API endpoint
 - [ ] Zero "workspace ID confusion" issues
+- [ ] Claude can read data from Input mapping and write to Output mapping (and vice versa with in/out files).
 - [ ] End-user describes what they want in business language, Claude does it
 - [ ] 80%+ issues correctly auto-triaged
 - [ ] Knowledge base continuously improves
-
-When I ask Claude Code for anything Keboola-related, I shouldn't have to scout documentation or watch over Claude. I need Claude Code to be smarter than me. When developing with E2B, I had to download all their documentation and create a skill (using https://github.com/anthropics/skills/tree/main/skills/skill-creator) - then Claude Code suddenly became an E2B expert. I want the same effect for Keboola. A lot of work already exists in https://github.com/keboola/ai-kit
-
-Improve it, add examples, package it with a bow, and deliver to end-users.
 
 ---
 
@@ -112,3 +117,11 @@ Improve it, add examples, package it with a bow, and deliver to end-users.
 2. Boilerplates in this repo or standalone?
 3. Error reporting opt-in or default?
 4. Threshold for auto-merge vs human review?
+
+---
+
+## The Prize
+
+I have **3 vouchers for dinner for 2** at [Mlynec](https://guide.michelin.com/en/prague/prague/restaurant/mlynec), a Michelin-rated restaurant in Prague.
+
+Looking for a **3-person team** to take this on.
